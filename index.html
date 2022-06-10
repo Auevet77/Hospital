@@ -28,14 +28,14 @@
             <li><a href="#section-searchdomain">Search domain</a></li>
             <li><a href="#section-localization">Localization</a></li>
             <li><a href="#section-contact">Contact</a></li>
-            <li><a href="#login-html" class="default-btn">Login</a></li>
+            <li><a href="login.html" class="default-btn">Login</a></li>
           </ul>
         </nav>
       </div>
       <main>
         <!-- section-home -->
         <section id="section-home">
-          <div id="banner-content">
+          <div class="banner-content">
             <h1>Lemuria Hospital</h1>
             <p>The best plans for your project</p>
           </div>
@@ -152,18 +152,35 @@
         <section id="section-searchdomain">
           <h1></h1>
           <p></p>
+          <div class="searchdomain-content">
+            <form >
+              <input type="text" name="search" placeholder="Enter your domain">
+              <input type="submit" text="Search">
+            </form>
+          </div>
         </section>
 
         <!-- section-localization -->
         <section id="section-localization">
-          <h1></h1>
-          <p></p>
+          <h1>Localization</h1>
+          <p>Try to find us</p>
+          <div class="localization-content">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.0253281465625!2d-46.434050785023416!3d-23.495597184715646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63dda7be6fb9%3A0xa74e7d5a53104311!2sSenac%20S%C3%A3o%20Miguel%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1654814257750!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </div>
         </section>
 
         <!-- section-contact -->
         <section id="section-contact">
-          <h1></h1>
-          <p></p>
+          <h1>Contact</h1>
+          <p>Send your message</p>
+          <div class="contact-content">
+            <input type="text" name="name" placeholder="Name">
+            <input type="email" name="email" placeholder="Email"> 
+            <textarea name="message" placeholder="Send your message"></textarea>
+            <input type="submit" value="Send">
+            <input type="submit" value="Cancel">
+          </div>
         </section>
       </main>
 
